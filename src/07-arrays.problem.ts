@@ -9,7 +9,7 @@ interface User {
    * - 'super-admin'
    */
   role: "admin" | "user" | "super-admin";
-  posts: Post;
+  posts: Post[];
 }
 
 interface Post {
